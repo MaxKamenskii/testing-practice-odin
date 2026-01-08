@@ -13,7 +13,7 @@ test("Cipher xyz to abc", () => {
 });
 
 test("Cipher with the same case", () => {
-  expect(caesarCipher("HeLLo", 3)).toBe("KnOOr");
+  expect(caesarCipher("HeLLo", 3)).toBe("KhOOr");
 });
 
 test("Cipher preserving punctuation", () => {
